@@ -1,0 +1,17 @@
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\bin\Debug\BanüOBS.exe.config
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\bin\Debug\BanüOBS.exe
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\bin\Debug\BanüOBS.pdb
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\obj\Debug\BanüOBS.csproj.AssemblyReference.cache
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\obj\Debug\BanüOBS.csproj.SuggestedBindingRedirects.cache
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\obj\Debug\BanüOBS.Form1.resources
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\obj\Debug\BanüOBS.Properties.Resources.resources
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\obj\Debug\BanüOBS.csproj.GenerateResource.cache
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\obj\Debug\BanüOBS.csproj.CoreCompileInputs.cache
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\obj\Debug\BanüOBS.exe
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\obj\Debug\BanüOBS.pdb
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\obj\Debug\BanüOBS.ogrenciEkle.resources
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\obj\Debug\BanüOBS.ogrenciListele.resources
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\obj\Debug\BanüOBS.ogrenciDuzenle.resources
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\obj\Debug\BanüOBS.ogrenciSil.resources
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\obj\Debug\BanüOBS.ogrenciNoArama.resources
+C:\Users\UmutGüven\Desktop\obs\BanüOBS\BanüOBS\obj\Debug\BanüOBS.ogrenciisimarama.resources

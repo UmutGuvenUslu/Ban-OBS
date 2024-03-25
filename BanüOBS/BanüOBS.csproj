@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A42F6141-890B-4594-83D2-00CCDA3387DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BanüOBS</RootNamespace>
+    <AssemblyName>BanüOBS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ana Sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ana Sayfa.Designer.cs">
+      <DependentUpon>Ana Sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenciDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogrenciDuzenle.Designer.cs">
+      <DependentUpon>ogrenciDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenciEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogrenciEkle.Designer.cs">
+      <DependentUpon>ogrenciEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenciisimarama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogrenciisimarama.Designer.cs">
+      <DependentUpon>ogrenciisimarama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenciListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogrenciListele.Designer.cs">
+      <DependentUpon>ogrenciListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenciNoArama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogrenciNoArama.Designer.cs">
+      <DependentUpon>ogrenciNoArama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenciSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogrenciSil.Designer.cs">
+      <DependentUpon>ogrenciSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ana Sayfa.resx">
+      <DependentUpon>Ana Sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogrenciDuzenle.resx">
+      <DependentUpon>ogrenciDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogrenciEkle.resx">
+      <DependentUpon>ogrenciEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogrenciisimarama.resx">
+      <DependentUpon>ogrenciisimarama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogrenciListele.resx">
+      <DependentUpon>ogrenciListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogrenciNoArama.resx">
+      <DependentUpon>ogrenciNoArama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogrenciSil.resx">
+      <DependentUpon>ogrenciSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
